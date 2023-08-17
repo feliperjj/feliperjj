@@ -1,5 +1,5 @@
 # 💫 About Me:
-Cursando Análise e Desenvolvimento de Sistemas na FAETERJ.<br>Desenvolvo em C ,HTML,CSS,JavaScript, Node.Js e aprendendo PHP. <br><br>
+Cursando Análise e Desenvolvimento de Sistemas na FAETERJ.<br>Desenvolvo em C ,HTML,CSS,JavaScript, Node.Js,PHP e Java. <br><br>
 
 
 ## 🌐 Socials:

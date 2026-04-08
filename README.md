@@ -33,7 +33,7 @@ Desenvolvedor Full Stack com projetos **publicados em produção** — não só 
 
 ---
 
-### 🛒 [E-Commerce Full Stack](https://github.com/feliperjj/ECommerce) · **[→ Ver em produção](https://bentocommerce.infinityfreeapp.com)**
+### 🛒 [E-Commerce Full Stack](https://github.com/feliperjj/E-Commerce) · **[→ Ver em produção](https://bentocommerce.infinityfreeapp.com)**
 > Loja virtual completa com backend em PHP puro, frontend modular e banco relacional.
 
 - 🔐 Autenticação com `password_hash`, sessões PHP e painel de administração protegido

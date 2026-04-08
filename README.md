@@ -1,11 +1,12 @@
 <div align="center">
 
-# Olá, eu sou o Felipe Bento 👋
+# Felipe Bento
 
-### Desenvolvedor Fullstack · Formado em Análise e Desenvolvimento de Sistemas
+### Desenvolvedor Full Stack Jr · ADS — FAETERJ (dez/2025)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipe-bento-000984108)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipe-bento-)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/feliperjj)
+[![Portfolio](https://img.shields.io/badge/Pix_Gateway_(Live)-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://pix-gateway.vercel.app)
 
 </div>
 
@@ -13,66 +14,83 @@
 
 ## Sobre mim
 
-Sou desenvolvedor com foco em construir **sistemas que resolvem problemas reais** — de e-commerces a sistemas de gestão desktop. Formado em ADS pela FAETERJ, tenho experiência com desenvolvimento web e desktop, utilizando PHP, Python e JavaScript. Gosto de entender o negócio por trás do código e de entregar soluções funcionais, seguras e bem estruturadas.
-
-- 🔭 Atualmente trabalhando no **E-Commerce Pokémon** — uma loja virtual fullstack com PHP
-- 🐍 Construí o **SGE**, um sistema de gestão de estoque desktop completo em Python
-- 💡 Sempre estudando algo novo — atualmente explorando Vue.js e TypeScript
-- 📫 Fale comigo: **[LinkedIn](https://linkedin.com/in/felipe-bento-000984108)**
-
----
-
-## 🛠️ Tecnologias & Ferramentas
-
-**Backend**
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-
-**Frontend**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Banco de Dados & Ferramentas**
-
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+Desenvolvedor Full Stack com projetos **publicados em produção** — não só no GitHub. Construí sistemas completos com API REST própria, autenticação, testes unitários e Docker. Formado em ADS pela FAETERJ, certificado pela Cisco em cibersegurança e redes, e com experiência em ambiente corporativo na Secretaria Municipal de Saúde do RJ.
 
 ---
 
 ## 🚀 Projetos em Destaque
 
-### 🛒 [E-Commerce Pokémon](https://github.com/feliperjj/E-Commerce)
-> Loja virtual fullstack construída com PHP puro, JavaScript ES6 e SQLite.
+### 💰 [Pix Gateway](https://github.com/feliperjj/pix-gateway) · **[→ Ver em produção](https://pix-gateway.vercel.app)**
+> Sistema full stack de geração e gestão de cobranças Pix com QR Code real (padrão EMV).
 
-- 🔐 Autenticação com `password_hash`, sessões PHP e painel de administração
+- 🏗️ Arquitetura em camadas (Controller → Service → Repository) com interface `PixProvider` desacoplada
+- ✅ Testes unitários com **JUnit 5 + Mockito** cobrindo regras de negócio do serviço de cobranças
+- 📄 Todos os endpoints documentados com **Swagger UI (OpenAPI 3.0)**
+- 🐳 Ambiente containerizado com **Docker Compose** (PostgreSQL)
+- ⚡ Frontend em **React** consumindo a API REST do backend
+
+`Java 17` `Spring Boot 3` `Spring Security` `Spring Data JPA` `React` `PostgreSQL` `Docker` `JUnit 5` `Mockito` `Swagger`
+
+---
+
+### 🛒 [E-Commerce Full Stack](https://github.com/feliperjj/ECommerce) · **[→ Ver em produção](https://bentocommerce.infinityfreeapp.com)**
+> Loja virtual completa com backend em PHP puro, frontend modular e banco relacional.
+
+- 🔐 Autenticação com `password_hash`, sessões PHP e painel de administração protegido
 - 🛒 Carrinho persistente para visitantes (UUID) com migração automática no login
 - 💾 Transações SQL (`beginTransaction/commit/rollback`) para integridade dos pedidos
-- 📦 Painel admin com KPIs, alertas de estoque e gerenciamento de produtos
-- 🔑 Fluxo de recuperação de senha com token de expiração por tempo
+- 📊 Painel admin com KPIs, alertas de estoque e gerenciamento de produtos
+- 🔑 Recuperação de senha com token de expiração por tempo
 
-`PHP` `JavaScript` `SQLite` `PDO` `ES6 Modules` `REST-like API`
+`PHP` `JavaScript ES6` `MySQL` `PDO` `REST API` `HTML5` `CSS3`
 
 ---
 
 ### 📦 [SGE — Sistema de Gerenciamento de Estoque](https://github.com/feliperjj/SGE-SISTEMA-GERENCIAMENTO-ESTOQUE)
 > Sistema desktop completo para controle de inventário, fornecedores e movimentações.
 
-- 🔐 Login com níveis de permissão: Administrador e Operador
-- 📋 Auditoria completa de ações — rastreabilidade total de quem fez o quê
-- 📊 Relatórios de vendas com filtros por período e exportação para CSV
+- 🔐 Autenticação com hash e hierarquia de permissões (Administrador / Operador)
+- 📋 Log de auditoria de todas as ações críticas — rastreabilidade total
+- 📊 Relatórios de vendas filtráveis por período com exportação CSV
 - ⚠️ Alertas automáticos de estoque abaixo do mínimo configurado
 - 🏭 Gerenciamento de fornecedores com histórico de compras associado
 
 `Python` `Tkinter` `SQLite` `hashlib`
+
+---
+
+### 🔗 Projetos Complementares
+
+| Projeto | Descrição | Stack |
+|---|---|---|
+| [Pokédex Interativa](https://github.com/feliperjj/Poke-Api) | SPA com estado reativo, componentização e filtragem dinâmica em tempo real | `Vue.js` `Vite` `PokeAPI` |
+| [WebService ViaCEP](https://github.com/feliperjj/WebService) | Integração com API REST pública aplicando boas práticas de consumo no backend | `Java` |
+
+---
+
+## 🛠️ Stack Técnica
+
+**Back-end**
+
+![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Front-end**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript_ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+**Banco de Dados & DevOps**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -88,8 +106,17 @@ Sou desenvolvedor com foco em construir **sistemas que resolvem problemas reais*
 
 ---
 
+## 🎓 Formação & Certificações
+
+- **Tecnólogo em ADS** — FAETERJ, Rio de Janeiro (dez/2025)
+- **Cisco Certified CyberOps Associate** — Cisco Networking Academy
+- **CCNA 1: Introduction to Networks** — Cisco Networking Academy
+- **JavaScript Completo ES6** — Origamid
+
+---
+
 <div align="center">
 
-*"Construindo sistemas que funcionam de verdade."*
+*"Projetos em produção valem mais do que projetos no README."*
 
 </div>

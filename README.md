@@ -59,14 +59,7 @@ Desenvolvedor Full Stack com projetos **publicados em produção** — não só 
 
 ---
 
-### 🔗 Projetos Complementares
 
-| Projeto | Descrição | Stack |
-|---|---|---|
-| [Pokédex Interativa](https://github.com/feliperjj/Poke-Api) | SPA com estado reativo, componentização e filtragem dinâmica em tempo real | `Vue.js` `Vite` `PokeAPI` |
-| [WebService ViaCEP](https://github.com/feliperjj/WebService) | Integração com API REST pública aplicando boas práticas de consumo no backend | `Java` |
-
----
 
 ## 🛠️ Stack Técnica
 
